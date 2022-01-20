@@ -48,7 +48,8 @@ div#root {
     width: 250px;
     color: rgb(252, 252, 207);
     background-color: grey;
-    margin-top: 25px;
+   /*  margin-top: 25px; */
+   margin: 5px;
     
     
 }
