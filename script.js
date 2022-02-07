@@ -8,11 +8,13 @@ const render = (loadedData) => {
     const img = loadedData.hdurl;
     const title = loadedData.title;
     const descr = loadedData.explanation;
+    const copyright = loadedData.copyright;
           
     document.querySelector('H1').innerText = title;
     document.querySelector('H3').innerText = descr;
     document.querySelector('p').innerText = date;
     document.querySelector('img').src = img;
+    document.querySelector('H5').innerText = "Copyright: " + copyright;
 };
 
 async function init () {

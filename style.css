@@ -1,19 +1,15 @@
-/* * {
-    margin: 0;
-    padding: 0;
+* {
+    
     box-sizing: border-box;
-    overflow: hidden;
-
-} */
+}
 
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;   
+    font-family: 'Trispace', sans-serif;
 
 }
 
@@ -32,10 +28,10 @@ div#root {
 
 @media screen and (max-width: 499px){
     div#root {
-        max-width: 300px;
+        max-width: 400px;
     }
     img {
-        width: 290px;
+        width: 350px;
         height: auto;
         
     }
@@ -63,6 +59,12 @@ h3 {
     margin: 30px;
     max-width: 500px;
     display: flex;
+    line-height: 1.5em;
+}
+
+h5 {
+    align-self: flex-start;
+    margin: 30px;
 }
 
 img {
